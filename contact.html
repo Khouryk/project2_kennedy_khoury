@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <!--Google analytics-->
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-04Z4X7D4CT"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-04Z4X7D4CT');
+    </script>
+
+    <meta charset="utf-8">
+
+    <title>Khoury Kennedy Contact</title>
+
+
+    <!--favicon-->
+    <link rel="icon" type="image/ico" href="images/favicon.ico"/>
+    <link rel="icon" type="image/png" href="images/favicon.png"/>
+
+    <!-- css link-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--Montserrat Font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@200&family=Montserrat:wght@800&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="videos.html">VIDEOS</a></li>
+          <li><a href="graphics.html">GRAPHICS</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!--ANIMATED logo-->
+    <div class="kklogo">
+       <img class="kklogo" src ="images/logo.png" alt="KKlogo" title="KKlogo" />
+    </div>
+
+    <div class="contact-heading">
+      <h2> CONTACT</h2>
+    </div>
+
+    <div class="chat-title">
+        <h2> LET'S CHAT </h2>
+    </div>
+
+
+    <section class="section-break-bottom"></section>
+
+    <div class="container">
+        <section class="container-section" id="contact-me">
+            <form class="contact" id="test_form" name="test_form" method="POST" action="form.php" onsubmit="return validateForm(this)">
+
+              <div class="name">
+                  <label for="name" class="label_input_wrap"> NAME</label>
+                  <input type="text" name="req_name" placeholder="John Doe" id="name" />
+              </div>
+
+              <div class="email">
+                  <label for="email" class="label_input_wrap"> EMAIL</label>
+                  <input type="email" name="req_email" placeholder="Example@email.com" id="email" />
+              </div>
+
+              <div class="tel">
+                  <label for="telephone" class="label_input_wrap">PHONE</label>
+                  <input type="tel" name="telephone" placeholder="555-555-5555" id="telephone" />
+              </div>
+
+              <div class="note">
+                  <label for="note" class="label_input_wrap"> NOTE</label>
+                  <textarea name="note" maxlength="1000" cols="30" rows="8" placeholder="Leave me a message!" id="note"></textarea>
+              </div>
+
+              <div class="submit">
+                <input type="submit" value="SEND"/>
+              </div>
+
+            </form>
+        </section>
+    </div>
+
+
+  </body>
+</html>

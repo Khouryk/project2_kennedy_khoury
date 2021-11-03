@@ -1,0 +1,355 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+
+/*nav bar css */
+nav {
+  font-size: 1.5em;
+  font-family: Montserrat;
+  text-align: center;
+  margin: 5%;
+  
+
+}
+
+a {
+  text-decoration: none;
+  color:#73806A;
+}
+
+li {
+  display: inline-block;
+  padding: 1%;
+}
+
+
+nav a:hover {
+  color: #ABBAA4;
+  transition: .5s;
+}
+
+body{
+  background: #E7EAE5;
+}
+/*==============animated logo=====================*/
+
+.kklogo {
+  position: absolute;
+  top:0;
+  left:0;
+  height: 15%;
+  padding: 10%;
+  animation-name: logo;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+}
+
+
+@keyframes logo {
+  0%  {left:100px; top:0px;}
+  100%   {left:0px; top:0px;}
+}
+
+
+/*=============== Homepage CSS======================= */
+
+#wrapper { width: 100%; margin: 0 auto; }
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+
+.nav {
+  font-size: 1.5em;
+  font-family: Montserrat;
+  text-align: center;
+  margin: 5%;
+  
+
+}
+
+.nav a {
+  text-decoration: none;
+  color:#73806A;
+}
+
+.nav li {
+  display: inline-block;
+  padding: 1%;
+}
+
+
+.nav a:hover {
+  color: #ABBAA4;
+  transition: .5s;
+}
+
+/*================ Homepage title ================================ */
+.content {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+
+  font-size: 3.5rem;
+  color: #E7EAE5;
+  padding: 20%;
+}
+
+/*=============== About page CSS======================= */
+
+div.about-heading{
+    font-size: 2rem;
+    color: #E7EAE5;
+    font-family: 'Montserrat', sans-serif;
+    Margin: auto;
+    padding:10%;
+    Text-align: center;
+    text-shadow: 1px 1px 1px #353B40;
+    background-image: url('images/aboutpic1.JPG');
+}
+
+.about-para {
+  margin: 20px 100px 20px;
+  text-align: center;
+  color: #231F20;
+  font-family: 'Karla', sans-serif;
+  font-size: 1.5rem;
+}
+
+
+div.resume img {
+  display: block;
+  margin: auto;
+  padding: 10%;
+  max-width: 500px;
+}
+
+div.resume:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
+    transition: transform .4s;
+}
+
+/*=============== Video page CSS======================= */
+div.video-heading h1{
+  font-size: 7rem;
+  color: #353B40;
+  font-family: 'Montserrat', sans-serif;
+  Margin: auto;
+  padding:2%;
+  Text-align: center;
+}
+
+div.vids h2{
+  font-size: 3rem;
+  color: #62686F;
+  font-family: 'Montserrat', sans-serif;
+  padding:5%;
+  Text-align: center;
+}
+div.vids h2:first-letter {
+  color: #50524F;
+}
+
+div.vids{
+  text-align:center;
+}
+
+div.vids video {
+  display: inline-block;
+  margin: 0 0 10% 0;
+  padding: 10%;
+}
+
+/*=============== Graphics page CSS======================= */
+div.graphic-heading h1{
+  font-size: 7rem;
+  color: #353B40;
+  font-family: 'Montserrat', sans-serif;
+  Margin: auto;
+  padding: 2%;
+  Text-align: center;
+}
+
+div.graphics h2{
+  font-size: 3rem;
+  color: #62686F;
+  font-family: 'Montserrat', sans-serif;
+  padding:5%;
+  Text-align: center;
+}
+
+div.graphics h2:first-letter {
+  color: #50524F;
+}
+
+div.graphics{
+  text-align:center;
+}
+
+div.graphics img {
+  display: inline-block;
+  padding: 30px;
+  max-width: 250px;
+}
+
+div.graphics embed {
+  display: inline-block;
+  margin: 0px 0px 100px 0px;
+  padding: 30px;
+  width: 500px;
+  height:800px;
+}
+
+span.lb-caption {
+  font-size: 1rem !important;
+  font-family: Karla;
+  color: #E7EAE5
+}
+
+
+
+/*=============== Contact Page CSS======================= */
+
+div.contact-heading{
+    font-size: 2rem;
+    color: #E7EAE5;
+    font-family: 'Montserrat', sans-serif;
+    Margin: auto;
+    padding:10%;
+    Text-align: center;
+    text-shadow: .5px .5px .5px #353B40;
+    background-image: url('images/contactimg.jpg');
+}
+
+div.chat-title h2{
+  margin: 2rem auto;
+  text-align: center;
+  font-family: Montserrat, sans-serif;
+  font-size: 2rem;
+  color: #353B40
+}
+
+
+
+.container {
+
+	Margin:0 auto;
+	Text-align: center;
+  Padding: 20px;
+  Max-width: 500px;
+  Color: white;
+  Font-family: Karla, sans-serif;
+  font-size: 1rem;
+  Margin: 0 auto;
+  Text-align: left;
+}
+
+.container-section Input,
+.container-section textarea {
+  margin: 6px auto;
+	padding: 9px 11px;
+  font-family: sans-serif;
+  border-radius: 4px;
+  width: 100%;
+}
+
+
+.label_input_wrap {
+  background: #CBD3C8;
+  margin: 5px;
+  padding: 6px 30px;
+  Display: inline-block;
+  max-width: 45px;
+  border-radius: 4px;
+
+}
+
+.submit input{
+  background: #353B40;
+  color: white;
+  margin: auto;
+  width: 100px;
+  font-family: Karla, sans-serif;
+}
+.submit input:hover{
+  background: #62686F
+}
+
+
+
+
+/*=============== Media Queries ======================= */
+   /*nav*/
+@media only screen and (max-width: 320px) {
+   .nav,
+    nav {
+      font-size: 0.8rem;
+    }
+  }
+
+ /*logo*/
+@media only screen and (max-width: 600px) {
+  .kklogo {
+    display:none;
+
+  }
+}
+
+  /*homepage*/
+@media only screen and (max-width: 320px) {
+  .content {
+    font-size: 2rem;
+  }
+}
+
+  /*about*/
+@media only screen and (max-width: 320px) {
+  .about-para {
+    font-size: 1rem;
+  }
+  div.resume img {
+    max-width: 200px
+  }
+}
+
+  /*video*/
+@media only screen and (max-width: 320px) {
+  div.video-heading h1 {
+    font-size: 4rem;
+  }
+  div.vids h2 {
+    font-size: 2rem;
+  }
+}
+  /*graphic*/
+@media only screen and (max-width: 320px) {
+  div.graphic-heading h1 {
+    font-size: 4rem;
+  }
+  div.graphics h2 {
+    font-size: 1.5rem;
+  }
+  div.graphics embed {
+    max-width: 300px;
+  }
+}
+
+  /*contact*/
+@media only screen and (max-width: 320px) {
+  .container{
+    max-width: 300px;
+  }
+}
+
